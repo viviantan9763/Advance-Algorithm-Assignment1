@@ -113,7 +113,104 @@ def main():
     products = [
         BabyProduct(101, "Diaper", 20.0),
         BabyProduct(102, "Baby Bottle", 15.0),
+        BabyProduct(103, "Baby Lotion", 18.0),
         BabyProduct(104, "Baby Powder", 12.0),
+        BabyProduct(105, "Wet Wipes", 10.0),
+        BabyProduct(106, "Pacifier", 8.0),
+        BabyProduct(107, "Baby Shampoo", 14.0),
+        BabyProduct(108, "Baby Oil", 16.0),
+        BabyProduct(109, "Baby Soap", 9.0),
+        BabyProduct(110, "Teething Toy", 11.0),
+        BabyProduct(111, "Baby Blanket", 25.0),
+        BabyProduct(112, "Baby Towel", 13.0),
+        BabyProduct(113, "Milk Formula Stage 1", 55.0),
+        BabyProduct(114, "Milk Formula Stage 2", 58.0),
+        BabyProduct(115, "Milk Formula Stage 3", 60.0),
+        BabyProduct(116, "Baby Bib", 6.0),
+        BabyProduct(117, "Baby Bed Sheet", 22.0),
+        BabyProduct(118, "Baby Mittens", 5.0),
+        BabyProduct(119, "Baby Socks", 4.0),
+        BabyProduct(120, "Baby Hat", 7.0),
+        BabyProduct(121, "Baby Carrier", 150.0),
+        BabyProduct(122, "Stroller", 350.0),
+        BabyProduct(123, "Baby Crib", 500.0),
+        BabyProduct(124, "Baby Bathtub", 45.0),
+        BabyProduct(125, "Baby Nail Clipper", 9.0),
+        BabyProduct(126, "Nappy Rash Cream", 18.0),
+        BabyProduct(127, "Thermometer", 25.0),
+        BabyProduct(128, "Baby Monitor", 210.0),
+        BabyProduct(129, "Sterilizer", 120.0),
+        BabyProduct(130, "Bottle Brush", 8.0),
+        BabyProduct(131, "Sippy Cup", 12.0),
+        BabyProduct(132, "Baby Food Jar Apple", 6.0),
+        BabyProduct(133, "Baby Food Jar Banana", 6.0),
+        BabyProduct(134, "Baby Food Jar Pumpkin", 6.0),
+        BabyProduct(135, "Baby Food Jar Carrot", 6.0),
+        BabyProduct(136, "Baby Bowl", 10.0),
+        BabyProduct(137, "Baby Spoon Set", 7.0),
+        BabyProduct(138, "Portable Changing Mat", 18.0),
+        BabyProduct(139, "Baby Swaddle", 20.0),
+        BabyProduct(140, "Baby Play Mat", 65.0),
+        BabyProduct(141, "Baby Laundry Detergent", 22.0),
+        BabyProduct(142, "Baby Soft Toy Bunny", 30.0),
+        BabyProduct(143, "Baby Soft Toy Bear", 30.0),
+        BabyProduct(144, "Baby Rattle", 10.0),
+        BabyProduct(145, "Baby Toothbrush", 7.0),
+        BabyProduct(146, "Baby Toothpaste", 8.0),
+        BabyProduct(147, "Baby Vitamin Drops", 28.0),
+        BabyProduct(148, "Breast Pump", 280.0),
+        BabyProduct(149, "Nursing Cover", 35.0),
+        BabyProduct(150, "Baby Bowl with Suction", 14.0),
+        BabyProduct(151, "Baby Shoes", 18.0),
+        BabyProduct(152, "Baby Pants", 12.0),
+        BabyProduct(153, "Baby Shirt", 10.0),
+        BabyProduct(154, "Baby Dress", 15.0),
+        BabyProduct(155, "Baby Pajamas", 14.0),
+        BabyProduct(156, "Baby Gloves", 6.0),
+        BabyProduct(157, "Baby Sweater", 20.0),
+        BabyProduct(158, "Baby Jacket", 25.0),
+        BabyProduct(159, "Baby Blanket Premium", 35.0),
+        BabyProduct(160, "Baby Diaper Bag", 80.0),
+        BabyProduct(161, "Baby High Chair", 120.0),
+        BabyProduct(162, "Baby Feeding Chair", 100.0),
+        BabyProduct(163, "Baby Food Processor", 180.0),
+        BabyProduct(164, "Baby Thermos", 20.0),
+        BabyProduct(165, "Baby Sun Hat", 10.0),
+        BabyProduct(166, "Baby Sunglasses", 12.0),
+        BabyProduct(167, "Baby Sleep Sack", 28.0),
+        BabyProduct(168, "Baby Night Light", 25.0),
+        BabyProduct(169, "Baby Crib Mobile", 45.0),
+        BabyProduct(170, "Baby Activity Gym", 70.0),
+        BabyProduct(171, "Baby Walker", 150.0),
+        BabyProduct(172, "Baby Playpen", 200.0),
+        BabyProduct(173, "Baby Bouncer", 90.0),
+        BabyProduct(174, "Baby Swing", 120.0),
+        BabyProduct(175, "Baby Car Seat", 250.0),
+        BabyProduct(176, "Baby Diaper Cream", 15.0),
+        BabyProduct(177, "Baby Laundry Basket", 20.0),
+        BabyProduct(178, "Baby Changing Table", 180.0),
+        BabyProduct(179, "Baby Feeding Bottle", 14.0),
+        BabyProduct(180, "Baby Nipple", 5.0),
+        BabyProduct(181, "Baby Pacifier Clip", 6.0),
+        BabyProduct(182, "Baby Teething Ring", 9.0),
+        BabyProduct(183, "Baby Safety Gate", 80.0),
+        BabyProduct(184, "Baby Stroller Rain Cover", 15.0),
+        BabyProduct(185, "Baby Hand Sanitizer", 8.0),
+        BabyProduct(186, "Baby Bath Sponge", 7.0),
+        BabyProduct(187, "Baby Lotion Sensitive", 18.0),
+        BabyProduct(188, "Baby Shampoo Tear-Free", 14.0),
+        BabyProduct(189, "Baby Oil Natural", 16.0),
+        BabyProduct(190, "Baby Diaper Pants", 22.0),
+        BabyProduct(191, "Baby Socks Cotton", 5.0),
+        BabyProduct(192, "Baby Shoes Soft", 18.0),
+        BabyProduct(193, "Baby Cap Soft", 7.0),
+        BabyProduct(194, "Baby Mittens Cotton", 6.0),
+        BabyProduct(195, "Baby Bib Waterproof", 8.0),
+        BabyProduct(196, "Baby Blanket Fluffy", 30.0),
+        BabyProduct(197, "Baby Stroller Cushion", 20.0),
+        BabyProduct(198, "Baby Bottle Warmer", 25.0),
+        BabyProduct(199, "Baby Food Jar Mixed Veggies", 7.0),
+        BabyProduct(200, "Baby Food Jar Chicken", 8.0),
     ]
 
     product_array = []
@@ -122,20 +219,22 @@ def main():
         product_array.append(p)
 
     choice = 0
-    while choice != 6:
+    while choice != 7:
         print("\n--- Baby Shop Inventory Menu ---")
         print("1. Insert Product")
         print("2. Search Product")
         print("3. Edit Product")
         print("4. Delete Product")
         print("5. Performance Test (Hash Table vs Array)")
-        print("6. Exit")
+        print("6. Display All Products")
+        print("7. Exit")
 
         try:
             choice = int(input("Enter your choice: "))
         except ValueError:
             print("Invalid input. Please enter a number between 1-6.")
             continue
+
 
         # 1. INSERT
         if choice == 1:
@@ -159,10 +258,16 @@ def main():
                 new_product = BabyProduct(pid, name, price)
                 ht.insert(pid, new_product)  # Insert into hash table
                 product_array.append(new_product)  # Insert into array
-                print("Product inserted successfully.")
+                print("\nProduct inserted successfully.")
+
+                # ★★★ Show updated product list ★★★
+                print("\n--- Updated Product List ---")
+                for p in product_array:
+                    print(p)
 
             except ValueError:
                 print("Invalid input. Please enter correct data types.")
+
 
         # 2. SEARCH
         elif choice == 2:
@@ -208,8 +313,16 @@ def main():
             search_keys = [p.id for p in product_array]
             performance_test(ht, product_array, search_keys)
 
-        # 6. EXIT
         elif choice == 6:
+            if not product_array:
+                print("No products available.")
+            else:
+                print("\n--- Current Products ---")
+                for p in product_array:
+                    print(p)
+
+        # 7. EXIT
+        elif choice == 7:
             print("Exiting program. Goodbye!")
 
         else:
