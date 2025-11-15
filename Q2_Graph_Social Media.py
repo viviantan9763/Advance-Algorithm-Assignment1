@@ -124,14 +124,17 @@ def main():
 
         # 5. Add new user
         elif choice == 5:
-            username = input("New username: ")
-            gender = input("Gender: ")
-            bio = input("Bio: ")
-            privacy = input("Privacy (public/private): ")
+            if len(people)>=10:
+                print("Cannot add more users.Maximum 10 users reached.")#only 10 userye
+            else:
+                username = input("New username: ")
+                gender = input("Gender: ")
+                bio = input("Bio: ")
+                privacy = input("Privacy (public/private): ")
 
-            people[username] = Person(username, gender, bio, privacy)
-            social.add_vertex(username)
-            print("User added successfully.")
+                people[username] = Person(username, gender, bio, privacy)
+                social.add_vertex(username)
+                print("User added successfully.")
 
         # 6. Follow someone
         elif choice == 6:
